@@ -10,32 +10,47 @@ const FooterPagePro = () => {
         <MDBRow>
           <MDBCol md="6">
             <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-              Footer Content
+             Tehri Food (food at doorstep!)
             </h5>
             <p>
-              Here you can use rows and columns here to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit.
+             We are team of yougsters of New Tehri are dedicated to serve you at fullest.
+             Supports us by Sharing our Website to your fellows.
             </p>
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
           <MDBCol md="2">
             <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-              Links
+              Developer
             </h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#!">Link 1</a>
+                <a href="#!">Aayush Hindwan</a>
               </li>
               <li>
-                <a href="#!">Link 2</a>
+                <a href="#!">aayushh@nitp.ac.in</a>
               </li>
               <li>
-                <a href="#!">Link 3</a>
+                <a href="#!">LinkedIn</a>
+              </li>
+             
+            </ul>
+          </MDBCol>
+          <hr className="clearfix w-100 d-md-none" />
+          <MDBCol md="2">
+            <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
+            Fouder
+            </h5>
+            <ul className="list-unstyled">
+              <li>
+                <a href="#!">Abhishek Rawat</a>
               </li>
               <li>
-                <a href="#!">Link 4</a>
+                <a href="#!">Facebook</a>
               </li>
+              <li>
+                <a href="#!">Instagram</a>
+              </li>
+  
             </ul>
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
@@ -45,36 +60,16 @@ const FooterPagePro = () => {
             </h5>
             <ul className="list-unstyled">
               <li>
-                <a href="#!">Link 1</a>
+                <a href="#!">Give us Feedback/Suggestions</a>
               </li>
               <li>
-                <a href="#!">Link 2</a>
+                <a href="#!">Be our Sellor</a>
               </li>
               <li>
-                <a href="#!">Link 3</a>
+                <a href="#!">Interested in delievery?</a>
               </li>
               <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-          </MDBCol>
-          <hr className="clearfix w-100 d-md-none" />
-          <MDBCol md="2">
-            <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-              Links
-            </h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
+                <a href="#!">Any Doubts?</a>
               </li>
             </ul>
           </MDBCol>

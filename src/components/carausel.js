@@ -7,7 +7,7 @@ const CarouselPage = () => {
     <MDBContainer>
       <MDBCarousel
       activeItem={1}
-      length={3}
+      length={4}
       showControls={true}
       showIndicators={true}
       className="z-depth-1"
@@ -17,42 +17,56 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+              src={require("./pic1.jpg")}
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Light mask</h3>
-            <p>First text</p>
+            <h1 className="h1-responsive">Online Food Delievery </h1>
+            <h2>For the First Time in Tehri!</h2>
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="2">
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+              src={require("./pic2.jpg")}
               alt="Second slide"
             />
           <MDBMask overlay="black-strong" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Strong mask</h3>
-            <p>Second text</p>
+            <h1 style={{color:"grey"}} className="h3-responsive"></h1>
+            <h2 style={{color:"black"}} >Memes are Necessary </h2>
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+              src={require("./pic3.jpg")}
               alt="Third slide"
             />
           <MDBMask overlay="black-slight" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Slight Mast</h3>
-            <p>Third text</p>
+            <h1 className="h3-responsive">Hygiene is our top Priority</h1>
+            <h2>Be Assured</h2>
+          </MDBCarouselCaption>
+        </MDBCarouselItem>
+        <MDBCarouselItem itemId="4">
+          <MDBView>
+            <img
+              className="d-block w-100"
+              src={require("./pic4.jpg")}
+              alt="Second slide"
+            />
+          <MDBMask overlay="black-strong" />
+          </MDBView>
+          <MDBCarouselCaption>
+            <h1 className="h3-responsive">Your Trust</h1>
+            <h2>Our Pleasure</h2>
           </MDBCarouselCaption>
         </MDBCarouselItem>
       </MDBCarouselInner>

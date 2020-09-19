@@ -20,10 +20,10 @@ export default class questions extends Component {
         return (
     
       <MDBCol md='4'>
-        <MDBCard >
+        <MDBCard onClick={this.props.onChildClick}>
           <MDBCardImage
             top
-            src='https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg'
+            src={this.props.imageUrl}
             overlay='white-slight'
             hover
             waves
@@ -34,14 +34,18 @@ export default class questions extends Component {
             <a href='#!' className='activator waves-effect waves-light mr-4'>
               
             </a>
-            <MDBCardTitle onClick={this.props.onChildClick} >{this.props.item}:{this.props.price}</MDBCardTitle>
-         <MDBIcon icon="shopping-cart" />
-        {this.props.price}
+            <MDBCardTitle  >{this.props.item}</MDBCardTitle>
+            <MDBCardTitle  > <span style={{backgroundColor:"#DAF7A6"}}> Rs:{this.props.price}</span> </MDBCardTitle  >
+            <hr />
+              <p>{this.props.desc}</p>
+              <hr />
+           
+      
 
-
-
+              
+          <div style={{backgroundColor:"#DAF76"}}class="fa fa-shopping-cart">Click to add to Cart</div>
           </MDBCardBody>
-          <MDBBtn color="elegant">Elegant</MDBBtn>
+          
         </MDBCard>
       </MDBCol>
 

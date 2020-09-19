@@ -29,18 +29,20 @@ export default class questions extends Component {
 componentDidMount()
 {
 
-axios.get("https://sheet.best/api/sheets/749df5c1-0c08-4d76-82f7-9603774b11d0").then(res => {
+axios.get("https://sheet.best/api/sheets/a73c2b4d-7414-4afd-9ef7-7ed1b39f5c0b").then(res => {
          var m = res.data;
       var k=[]
         //
       var  r=m[this.props.match.params.id]
     var n=Object.keys(r).length-1;
-         for(var i=1;i<=n/2;i++)
+         for(var i=1;i<=n/4;i++)
          {
           var it=String("Item"+i);
           var c="Cost"+i;
+           var p="Photo"+i;
+           var d="Description"+i;
             if(r[it]&&r[c])
-           k.push({item:r[it],price:r[c]})
+           k.push({item:r[it],price:r[c],imageUrl:r[p],desc:r[d]})
          }
         console.log("heuuu");
         console.log(k);
@@ -85,9 +87,11 @@ if(check)
 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span onClick={()=>{
+            this.setState({total:this.state.total-a.price});
             var temp=this.state.Cart;
              temp.splice(i,1);
-             this.setState({Cart:temp})
+             this.setState({Cart:temp}
+              )
           }}aria-hidden="true" class="white-text">&times;</span>
         </button>
       </div>
@@ -114,7 +118,7 @@ if(check)
                         this.state.Item.map((a,i)=>{
                            return(
 
-                          <Item  onChildClick={()=>this.addCart(a.item,a.price)} item={a.item} price={a.price}/>
+                          <Item  onChildClick={()=>this.addCart(a.item,a.price)} item={a.item} price={a.price} desc={a.desc} imageUrl={a.imageUrl}/>
                             );
 
                          })
