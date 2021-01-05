@@ -1,10 +1,10 @@
-#Food Ordering Website
+# Food Ordering Website
 Restaurants Data is fetched using google sheet using sheetBest APIs.
 Backend Services: https://github.com/aayushhindwan/tehrifoodback/
-## Admin Access
-## Ordering
-## Fetching Status 
-## Order PickUp by Delivery Boy
+-> Admin Access
+-> Ordering
+-> Fetching Status 
+-> Order PickUp by Delivery Boy
 
 # Front End:Configuration 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
