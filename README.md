@@ -1,3 +1,12 @@
+#Food Ordering Website
+Restaurants Data is fetched using google sheet using sheetBest APIs.
+Backend Services: https://github.com/aayushhindwan/tehrifoodback/
+## Admin Access
+## Ordering
+## Fetching Status 
+## Order PickUp by Delivery Boy
+
+# Front End:Configuration 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -20,11 +29,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
+It correctly bundles React in productionth mode and optimizes the build for the best performance.
+ 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
-
+   
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `yarn eject`
